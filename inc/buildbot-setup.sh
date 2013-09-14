@@ -98,7 +98,7 @@ cmd="$cmd | sed -e s,\{irc_channels\},'$irc_channels',g"
 cmd="$cmd > $master/master.cfg"
 create_cfg="$cmd"
 
-sudo apt-get install buildbot
+sudo apt-get -y install buildbot
 
 sudo useradd -r -m $unix_name
 
