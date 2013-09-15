@@ -1,7 +1,7 @@
 qfusion-xcompile
 ================
 
-Initialize cross-compilation environment in a few steps.
+Setup qfusion cross-compilation environment in a few quick steps.
 
 You'll need a fresh x86_64 Ubuntu 12.04 VM, git and sudo privileges.
 
