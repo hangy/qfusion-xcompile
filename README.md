@@ -33,7 +33,7 @@ script and specify the following settings:
 Since you probably don't need full git clone of your project to build
 qfusion, you can change your build slaves to use sparse git checkouts.
 After a slave completes the first build (or at least initializes the
-git repository), issue the following commands in appropriate directories
+git repository), issue the following commands in build directories
 for each slave:
 
 > git config core.sparsecheckout true
@@ -41,6 +41,4 @@ for each slave:
 > echo sdk/source/ >> .git/info/sparse-checkout
 
 > git read-tree -mu HEAD
-
-Make sure to clean the build directory afterwards.
 
