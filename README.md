@@ -37,3 +37,5 @@ git config core.sparsecheckout true
 echo sdk/source/ >> .git/info/sparse-checkout
 git read-tree -mu HEAD
 
+Make sure to clean the build directory afterwards.
+
