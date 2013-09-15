@@ -102,8 +102,6 @@ sudo apt-get -y install buildbot
 
 sudo useradd -r -m $unix_name
 
-sudo -u $unix_name -H sh -c "mkdir -p ~/$www_dir"
-
 sudo -u $unix_name -H sh -c "cd ~; buildbot create-master $master ; $create_cfg ; buildbot start $master"
 
 sudo -u $unix_name -H sh -c "cd ~; buildslave create-slave $slave localhost:$slave_port $slave_name $slave_pass"
