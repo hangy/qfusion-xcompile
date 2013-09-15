@@ -63,7 +63,7 @@ build_dir = 'build/'
 cross_compile_dir = '{crosscompile_dir}'
 source_dir = '{source_dir}'
 www_dir = '{www_dir}'
-project_git = Git(repourl='{git_url}', mode='copy', haltOnFailure=1)
+project_git = Git(repourl='{git_url}', haltOnFailure=1)
 
 f_win32_x86 = factory.BuildFactory()
 f_win32_x86.addStep(project_git)
