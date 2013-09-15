@@ -11,4 +11,5 @@ Along with automatically installing compilation dependencies and tools,
 the scripts also sets up an IRC buildbot, which will join server and
 channels of your choice.
 
-Compiled files are copied by the buildbot to ~www/bin by default.
+By default, compiled files are uploaded by buildbot to master's 
+public_html/bin directory.
