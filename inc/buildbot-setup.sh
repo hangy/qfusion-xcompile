@@ -14,7 +14,7 @@ admin_email="$8"
 
 crosscompile_dir='tools/cross_compile/'
 source_dir='source/'
-www_dir='www/bin/'
+www_dir='public_html/bin/'
 
 slave_name='buildbot'
 slave_pass='buildbot'
