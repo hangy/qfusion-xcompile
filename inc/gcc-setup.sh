@@ -2,7 +2,7 @@
 
 sudo apt-get -y install gcc g++ gcc-multilib g++-multilib autoconf libtool
 
-sudo apt-get -y install build-essential zlib1g-dev libcurl4-openssl-dev libopenal-dev x11proto-xf86dga-dev libxxf86dga-dev libxxf86vm-dev libxinerama-dev libxcb-xinerama0-dev libxrandr-dev libjpeg-dev libpng12-dev libvorbis-dev libsdl1.2-dev libfreetype6-dev libtheora-dev libc-ares-dev
+sudo apt-get -y install build-essential zlib1g-dev libcurl4-openssl-dev libopenal-dev x11proto-xf86dga-dev libxxf86dga-dev libxxf86vm-dev libxinerama-dev libxcb-xinerama0-dev libxrandr-dev libjpeg-dev libpng12-dev libvorbis-dev libsdl1.2-dev libfreetype6-dev libtheora-dev
 
 sudo apt-get -y install ia32-libs
 
